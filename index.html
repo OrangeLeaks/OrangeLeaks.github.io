@@ -1,0 +1,21 @@
+<head>
+    <title>OrangeLeaks</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="imgs/logo.png">
+</head>
+<body>
+    <div class="box1">
+        <div class="logo">
+            <img src="imgs/logo_mini.png" width="25" height="25">
+            OrangeLeaks<br>
+        </div>
+    </div>
+    <div class="leaks">
+        <br><br><p style="font-family:'Courier New'">There is no leaks on the site.</p>
+        <br><br><p>Date/Time: <span id="datetime"></span></p>
+    </div>
+    <script>
+        var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleString();
+    </script>
+</body>
